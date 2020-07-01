@@ -4,6 +4,7 @@ const discord = require('discord.js')
 require('dotenv').config()
 const {Client, Collection} = discord
 const locale = require('./locale')
+const lang = "kr"
 
 Client.prototype.commands = new Collection()
 Client.prototype.aliases = new Collection()
@@ -49,7 +50,7 @@ client.on('message', async msg => {
     let args = msg.content.slice(prefix.length).trim().split(/ +/g)
     let cmd = args.shift().toLowerCase()
     try {
-        runCommand(cmd, msg, args, prefix, locale.kr)
+        runCommand(cmd, msg, args, prefix, locale[lang])
     } catch(e) {
         console.error(e)
     }

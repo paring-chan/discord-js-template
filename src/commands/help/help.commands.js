@@ -1,4 +1,4 @@
-async function help(client, msg, args, prefix) {
+async function help(client, msg) {
     await msg.channel.send('도움말')
 }
 
