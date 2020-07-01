@@ -10,6 +10,7 @@
 git clone <생성한 레포 주소>
 cd <레포이름>
 npm install
+.env.example 파일을 .env로 변경해주세요.
 개발 - npm run dev/yarn dev
 프로덕션 - npm start/yarn start
 ```
