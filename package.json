@@ -1,0 +1,19 @@
+{
+  "name": "discord-js-template",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/Team-Piko/discord-js-template",
+  "author": "parangee <parangee9706@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "walk": "^2.3.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon"
+  }
+}
