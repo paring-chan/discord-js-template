@@ -14,6 +14,11 @@ npm install
 프로덕션 - npm start/yarn start
 ```
 
+# dotenv 설정 방법
+```
+BOT_TOKEN=디스코드 봇 토큰 입력
+```
+
 ### 명령어 제작 장법
 commands 폴더에 `아무이름.commands.js`를 만들어주세요.
 
